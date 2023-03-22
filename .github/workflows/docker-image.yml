@@ -27,5 +27,5 @@ jobs:
       with:
         context: .
         push: true
-        tags: "dask"
-        labels: "2021.2.0"
+        tags: ${{ steps.meta.outputs.tags }}
+        labels: ${{ steps.meta.outputs.labels }}
