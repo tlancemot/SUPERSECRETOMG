@@ -27,5 +27,5 @@ jobs:
       with:
         context: .
         push: true
-        tags: "2021.2.0"
-        labels: "toto"
+        tags: "dask"
+        labels: "2021.2.0"
